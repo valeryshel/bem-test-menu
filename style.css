@@ -1,0 +1,58 @@
+@font-face {
+  font-family: "Avenir Next";
+  src: local("Avenir Next Medium"), local("Avenir-Next-Medium"),
+    url("/AvenirNextCyr-Medium/AvenirNextCyr-Medium.woff2") format("woff2"),
+    url("/AvenirNextCyr-Medium/AvenirNextCyr-Medium.woff") format("woff"),
+    url("/AvenirNextCyr-Medium/AvenirNextCyr-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+body {
+  margin: 0;
+}
+.b-header {
+  background: #d73742;
+  height: 70px;
+}
+.b-header--var {
+  background: #e8e8e8;
+}
+.b-container {
+  padding-left: 50px;
+  padding-right: 50px;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+.b-nav {
+  padding-top: 25px;
+  padding-bottom: 10px;
+}
+.b-nav-list {
+  display: flex;
+  padding: 0;
+  margin: 0;
+}
+.b-nav-list-item {
+  margin-right: 40px;
+  list-style-type: none;
+}
+.b-nav-list-item-link {
+  font-family: "Avenir Next";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 19px;
+  letter-spacing: -0.1px;
+  color: #fff;
+  text-decoration: none;
+  padding-bottom: 14px;
+}
+.b-nav-list-item-link--dark {
+  color: #010101;
+}
+.b-nav-list-item-link--active {
+  border-bottom: 2px solid #fff;
+}
+.b-nav-list-item-link--dark-active {
+  border-bottom: 2px solid #010101;
+}
